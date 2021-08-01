@@ -140,11 +140,4 @@ public class User implements UserDetails {
     public void setRoles(Set<Role> roles) {
         this.roles = roles;
     }
-
-
-
-//    @Override
-//    public String toString() {
-//        return String.format("%s, пароль %s, email %s, %s, %s", email, password, firstName, lastName, age);
-//    }
 }
